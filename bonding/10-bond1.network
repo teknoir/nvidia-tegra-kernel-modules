@@ -1,0 +1,6 @@
+# /etc/systemd/network/10-bond1.network
+[Match]
+Name=bond1
+
+[Network]
+Bond=bond0

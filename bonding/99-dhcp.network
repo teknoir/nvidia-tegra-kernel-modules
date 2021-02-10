@@ -1,0 +1,8 @@
+# /etc/systemd/network/99-dhcp.network
+[Match]
+Name=eth*
+Name=wlan*
+Name=wwan*
+
+[Network]
+DHCP=yes

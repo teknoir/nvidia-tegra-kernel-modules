@@ -1,0 +1,6 @@
+# /etc/systemd/network/10-bond1.network
+[Match]
+Name=bond0
+
+[Network]
+DHCP=yes

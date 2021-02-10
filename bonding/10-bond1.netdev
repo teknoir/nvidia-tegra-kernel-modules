@@ -1,0 +1,9 @@
+# /etc/systemd/network/10-bond1.netdev
+[NetDev]
+Name=bond1
+Kind=bond
+
+[Bond]
+Mode=active-backup
+PrimaryReselectPolicy=always
+MIIMonitorSec=1s
