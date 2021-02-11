@@ -1,0 +1,9 @@
+# /etc/systemd/network/30-wlan0.network
+[Match]
+Name=wlan0
+
+[Network]
+Bond=bond0
+#DHCP=no
+#LinkLocalAddressing=no
+PrimarySlave=yes

@@ -1,0 +1,19 @@
+# /etc/systemd/network/40-wwan0.network
+[Match]
+Name=wwan0
+
+[Network]
+#Bond=bond0
+DHCP=yes
+#LinkLocalAddressing=no
+#PrimarySlave=true
+DNSDefaultRoute=yes
+DNS=8.8.8.8 8.8.4.4
+
+[DHCP]
+UseDNS=yes
+RoutesToDNS=yes
+UseDomains=yes
+UseRoutes=yes
+UseGateway=yes
+RouteMetric=40

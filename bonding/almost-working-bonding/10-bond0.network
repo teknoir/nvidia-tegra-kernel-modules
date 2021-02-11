@@ -1,0 +1,18 @@
+# /etc/systemd/network/10-bond0.network
+[Match]
+Name=bond0
+
+[Network]
+#Bridge=bridge0
+DHCP=ipv4
+#DHCP=no
+#LinkLocalAddressing=no
+DNS=8.8.8.8 8.8.4.4
+DNSDefaultRoute=yes
+
+[DHCP]
+RoutesToDNS=yes
+UseDomains=yes
+UseRoutes=yes
+UseGateway=yes
+RouteMetric=0

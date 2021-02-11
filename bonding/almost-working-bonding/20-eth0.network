@@ -1,0 +1,9 @@
+# /etc/systemd/network/20-eth0.network
+[Match]
+Name=eth0
+
+[Network]
+Bond=bond0
+#DHCP=no
+#LinkLocalAddressing=no
+#PrimarySlave=true

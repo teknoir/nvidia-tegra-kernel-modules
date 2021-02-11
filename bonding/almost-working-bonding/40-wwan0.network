@@ -1,0 +1,8 @@
+# /etc/systemd/network/40-wwan0.network
+[Match]
+Name=wwan0
+
+[Network]
+Bond=bond0
+#DHCP=no
+#LinkLocalAddressing=no

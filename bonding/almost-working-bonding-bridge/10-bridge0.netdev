@@ -1,0 +1,4 @@
+# /etc/systemd/network/10-bridge0.netdev
+[NetDev]
+Name=bridge0
+Kind=bridge

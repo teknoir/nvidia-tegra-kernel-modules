@@ -1,3 +1,8 @@
+http://linux-ip.net/html/adv-multi-internet.html
+
+
+
+
 https://kerlilow.me/blog/setting-up-systemd-networkd-with-bonding/
 https://wiki.debian.org/Bonding
 
