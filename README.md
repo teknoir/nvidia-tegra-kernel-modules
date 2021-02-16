@@ -18,8 +18,40 @@ gunzip config.gz
 mv config .config
 vi .config
 ```
+
+Update the variable, to match current kernel:
+```
+CONFIG_LOCALVERSION="-tegra"
+```
+
+Prepare build dir:
+```
+cd /lib/modules/$(uname -r)
+rm build
+ln -s /usr/src/sources/kernel/kernel-4.9/ build
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+### OLD CRAP
+
 Enable bonding module
-CONFIG_BONDING=y
+CONFIG_BONDING=m
 
 Update the symbolic link:
 ```shell script

@@ -1,6 +1,0 @@
-# /etc/systemd/network/10-bond0.network
-[Match]
-Name=bond0
-
-[Network]
-Bridge=bridge0

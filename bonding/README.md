@@ -1,3 +1,10 @@
+# BONDING does not sem to work with sim7600gh
+
+
+
+https://www.raspberrypi.org/forums/viewtopic.php?t=224355
+
+
 http://linux-ip.net/html/adv-multi-internet.html
 
 
@@ -5,6 +12,10 @@ http://linux-ip.net/html/adv-multi-internet.html
 
 https://kerlilow.me/blog/setting-up-systemd-networkd-with-bonding/
 https://wiki.debian.org/Bonding
+
+## Build bonding module
+
+> Make sure to follow README.md in this repo root first
 
 Edit .config and make sure you have:
 ```

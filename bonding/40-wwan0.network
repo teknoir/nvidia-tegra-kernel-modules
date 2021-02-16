@@ -3,4 +3,6 @@
 Name=wwan0
 
 [Network]
-Bond=bond1
+Bond=bond0
+#DHCP=no
+#LinkLocalAddressing=no
